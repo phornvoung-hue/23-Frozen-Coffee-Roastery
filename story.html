@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Story - Coffee Eco</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --coffee-dark: #2C1A11;
+            --coffee-mid: #4E3629;
+            --coffee-accent: #9C6644;
+            --coffee-cream: #F4EBE1;
+            --coffee-card: #EADBC8;
+        
+        }
+        body {
+            background-color: var(--coffee-cream);
+            color: var(--coffee-dark);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .bg-coffee-dark { background-color: var(--coffee-dark) !important; }
+        .bg-coffee-accent { background-color: var(--coffee-accent) !important; }
+        .bg-coffee-card { background-color: var(--coffee-card) !important; }
+        .text-coffee-cream { color: var(--coffee-cream) !important; }
+    </style>
+</head>
+<body>
+    
+    <!-- NAV BAR -->
+     <nav class="navbar navbar-expand-md bg-coffee-dark navbar-dark sticky-top px-3">
+        <div class="container-fluid">
+            <a class="navbar-brand fst-italic fw-bold text-coffee-cream" href="index.html">Coffee Eco</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="mainNav">
+                <ul class="navbar-nav gap-3 text-uppercase small tracking-wider">
+                    <ul class="navbar-nav gap-3 text-uppercase small tracking-wider">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="story.html">Story</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <button class="btn bg-coffee-accent text-white rounded-pill px-4 btn-sm text-uppercase fw-bold">Subscribe</button>
+        </div>
+    </nav>
+
+    <!-- CONTENT -->
+    <section class="container py-5 my-5 max-w-md">
+        <div class="row justify-content-center text-center">
+            <div class="col-12 col-md-8">
+                <h1 class="display-4 fw-bold mb-3 text-uppercase">The Farm to Cup Journey</h1>
+                <div class="bg-coffee-accent my-3 mx-auto" style="width: 60px; height: 3px;"></div>
+                <p class="lead">From humble beginnings to a sustainable coffee haven, our journey is one of passion, innovation, and a commitment to the environment.</p>
+                <p class="text-muted small">Founded in 2010 by a group of coffee enthusiasts, Coffee Eco was born out of a desire to create a space where coffee lovers could enjoy their favorite brew while being mindful of the planet. Our mission has always been to source the finest beans, support ethical farming practices, and design our cafes with sustainability at the forefront.</p>
+            </div>
+        </div>
+    </section>
+   
+    <footer class="bg-black text-secondary pt-5 pb-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-0 small">&copy; 2026 Coffee Eco. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
